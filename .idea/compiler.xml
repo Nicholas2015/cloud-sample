@@ -8,17 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config" />
-        <module name="cloud-feign" />
+        <module name="cloud-zipkin" />
         <module name="cloud-hystrix" />
-        <module name="cloud-zuul" />
         <module name="cloud-config-server" />
         <module name="cloud-config-remote-client" />
         <module name="cloud-server" />
+        <module name="cloud-client" />
+        <module name="cloud-zipkin-client" />
+        <module name="cloud-feign" />
+        <module name="cloud-zuul" />
         <module name="cloud-consumer" />
         <module name="cloud-ribbon" />
         <module name="cloud-rest" />
         <module name="cloud-config-client" />
-        <module name="cloud-client" />
       </profile>
     </annotationProcessing>
   </component>
@@ -35,6 +37,8 @@
       <module name="cloud-rest" options="-parameters" />
       <module name="cloud-ribbon" options="-parameters" />
       <module name="cloud-server" options="-parameters" />
+      <module name="cloud-zipkin" options="-parameters" />
+      <module name="cloud-zipkin-client" options="-parameters" />
       <module name="cloud-zuul" options="-parameters" />
     </option>
   </component>
