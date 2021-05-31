@@ -11,6 +11,8 @@
         <module name="cloud-feign" />
         <module name="cloud-hystrix" />
         <module name="cloud-zuul" />
+        <module name="cloud-config-server" />
+        <module name="cloud-config-remote-client" />
         <module name="cloud-server" />
         <module name="cloud-consumer" />
         <module name="cloud-ribbon" />
@@ -25,6 +27,8 @@
       <module name="cloud-client" options="-parameters" />
       <module name="cloud-config" options="-parameters" />
       <module name="cloud-config-client" options="-parameters" />
+      <module name="cloud-config-remote-client" options="-parameters" />
+      <module name="cloud-config-server" options="-parameters" />
       <module name="cloud-consumer" options="-parameters" />
       <module name="cloud-feign" options="-parameters" />
       <module name="cloud-hystrix" options="-parameters" />
